@@ -1,0 +1,165 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	margin-top: 155px;
+	font-size: 80px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+h3 {
+	margin-top: 3px;
+	font-size: 30px;
+}
+
+#intro {
+	background-image: url(http://churchillpolarbears.org/wp-content/uploads/2015/01/polar-bear-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 1440px;
+	background-position: 10% 10%;
+	padding-top: 0.1px;
+	padding-bottom: 173px;
+}
+
+#background1{
+	background-color: white;
+}
+
+#first {
+	width: 960px;
+	margin-left: 240px;
+	padding-top: 33px;
+	padding-bottom: 55px;
+}
+
+h2 {
+	font-size: 40px;
+	padding-top: 9px;
+	padding-bottom: 0;
+	font-weight: 700;
+	margin-top: 0;
+	margin-left: 1px;
+}
+
+#first p {
+	font-size: 18px;
+	line-height: 21px;
+	margin: 0;
+	margin-top: 16px;
+}
+
+.image1 {
+	width: 400px;
+	height: 300px;
+	float: right;
+	padding-left: 40px; 
+	padding-bottom: 25px;
+}
+
+.image2 {
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding-right: 13px;
+}
+
+#left {
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+#right {
+	width: 50%;
+	height: 100%;
+	float: right;
+	display: inline-block;
+}
+
+.container1 {
+	background-color: #B0C4DE;
+	height: 678px;
+}
+
+.container2 {
+	width: 960px;
+	margin-left: 240px;
+	padding-top: 33px;
+	padding-bottom: 55px;
+}
+
+.container3 {
+	display: block;
+	float: left;
+	margin-bottom: 24px;
+}
+
+h4 {
+	font-size: 21px;
+	margin-top: 1px;
+	margin-bottom: 7px;
+
+}
+
+.text {
+	font-size: 18px;
+	margin: 0;
+	line-height: 21px;
+}
+
+#background2 {
+	background-color: #82a7d8;
+	height: 413px;
+}
+
+#third {
+	width: 960px;
+	margin-left: 240px;
+	padding-top: 33px;
+	padding-bottom: 55px;
+}
+
+#third p {
+	text-align: center;
+	font-size: 27px;
+	line-height: 31px;
+	margin-left: 8px;
+}
+
+span {
+	margin-left: -5px;
+}
+
+#background3 {
+	background-color: #4682B4;
+	height: 102px;
+}
+
+#footer {
+	width: 960px;
+	margin-left: 240px;
+	padding-top: 33px;
+	padding-bottom: 55px;
+}
+
+#footer p {
+	float: left;
+	font-size: 18px;
+	margin-top: 7px;
+	color: white;
+}
+
+#icons {
+	float: right;
+	font-size: 16px;
+	margin-top: 0;
+	color: white;
+}
