@@ -1,0 +1,455 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+ 	font-size: 30px;
+ 	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+#btn_cocacola {
+	width: 130px;
+	margin-top: 100px;
+}
+
+#btn_cocacola:hover {
+	width: 150px;
+	margin-top: 95px;
+}
+
+#btn_apple {
+	width: 100px;
+	margin-top: 70px;
+}
+
+#tag_apple:hover {
+	display: none;
+}
+
+#btn_ibm {
+	width: 130px;
+	margin-top: 100px;
+}
+
+#btn_ibm:hover {
+	margin-top: 98px;
+	border: 2px solid #4682B4;
+}
+
+#btn_harleydavidson {
+	width: 120px;
+	margin-top: 80px;
+}
+
+#btn_harleydavidson:hover {
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
+
+a#btn_michaelkors {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('http://www.2ndtake.co.za/wp-content/uploads/2015/10/michael-kors-logo.jpg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_michaelkors:hover {
+	display: inline-block;
+	width: 150px;
+	height: 160px;
+	margin-top: 50px;
+	background: transparent url('https://www.accessoriesmagazine.com/wp-content/uploads/2014/05/Michael-Kors-logo.jpg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_lyft {
+	display: inline-block;
+	width: 140px;
+	height: 70px;
+	margin-top: 100px;
+	background: transparent url('https://i0.wp.com/ridesharetips.com/wp-content/uploads/2014/07/header2.jpg?resize=300%2C176') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_lyft:hover {
+	display: inline-block;
+	width: 140px;
+	height: 70px;
+	margin-top: 90px;
+	background: transparent url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lyft_logo.svg/2000px-Lyft_logo.svg.png') center no-repeat;
+	background-size: contain;
+}
+
+#btn_cartoon {
+	width: 120px;
+	margin-top: 30px;
+	filter: grayscale(100%);
+}
+
+#btn_cartoon:hover {
+	filter: none;
+}
+
+#btn_catroon:hover {
+	transform: translateX(10px);
+}
+
+a#btn_tonightshow {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('https://img0.etsystatic.com/127/1/5805234/il_340x270.855216452_ngh5.jpg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_tonightshow:hover {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('https://yt3.ggpht.com/-x3CU1CXklQI/AAAAAAAAAAI/AAAAAAAAAAA/jPQ9GJeU53g/s900-c-k-no-mo-rj-c0xffffff/photo.jpg') center no-repeat;
+	background-size: contain;
+}
+
+#btn_nike {
+	width: 130px;
+	margin-top: 110px;
+}
+
+#btn_nike:hover {
+	transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+#btn_garden {
+	width: 110px;
+	margin-top: 70px;
+}
+
+#btn_garden:hover {
+	width: 125px;
+	margin-top: 60px;
+}
+
+#btn_hulkhogan{
+	width: 120px;
+	margin-top: 60px;
+}
+
+#btn_hulkhogan:hover {
+	transform: skewX(-10deg);
+}
+
+a#btn_tesla {
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	margin-top: 60px;
+	background: transparent url('https://seeklogo.com/images/T/tesla-logo-418A9AD25C-seeklogo.com.jpg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_tesla:hover {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 80px;
+	background: transparent url('http://thenewswheel.com/wp-content/uploads/2015/10/Tesla-T-logo.jpg') center no-repeat;
+	background-size: contain;
+}
+
+#btn_colorrun {
+	width: 190px;
+	margin-top: 110px;
+	filter: grayscale(100%);
+}
+
+#btn_colorrun:hover {
+	filter: none;
+}
+
+a#btn_fitbit {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('https://www.fitbit.com/content/assets/common/logo/fitbit-logo-2016.svg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_fitbit:hover {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('https://www.fitbit.com/content/assets/app2/images/fitbit_logo_icon.svg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_exploding {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('https://i.pinimg.com/originals/55/81/7a/55817af06fbe1cd798426ca356829411.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_exploding:hover {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('http://thephiladelphiabankruptcyattorney.com/wp-content/uploads/2013/03/xx34_badger_atmospheric_nuclear_test__april_1953.jpg') center no-repeat;
+	background-size: contain;
+}
+
+#btn_stjude {
+	width: 140px;
+	margin-top: 85px;
+}
+
+#btn_stjude:hover {
+	box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+a#btn_newyorker {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('http://is2.mzstatic.com/image/thumb/Purple128/v4/27/c6/1a/27c61a0b-08c5-3964-f4b9-7a273d224131/source/1200x630bb.jpg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_newyorker:hover {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('https://www.newyorker.com/images/svg/tny-logo.svg') center no-repeat;
+	background-size: contain;
+}
+
+#btn_foreflight {
+	width: 250px;
+	margin-top: 80px;
+}
+
+#btn_foreflight:hover {
+	transform: skewX(-20deg);
+}
+
+#btn_velocity {
+	width: 150px;
+	margin-top: 85px;
+}
+
+#btn_velocity:hover {
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
+
+#btn_instagram {
+	width: 120px;
+	margin-top: 70px;
+}
+
+#btn_instagram:hover {
+	width: 140px;
+	margin-top: 60px;
+}
+
+a#btn_facebook {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Facebook_logo_thumbs_up_like_transparent_SVG.svg/722px-Facebook_logo_thumbs_up_like_transparent_SVG.svg.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_facebook:hover {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('http://3.bp.blogspot.com/-u4L1MqeRamU/U5hZMEDaItI/AAAAAAAAIwk/o7b_41n_Tg4/s1600/middle-finger-emoticon.png') center no-repeat;
+	background-size: contain;
+}
+
+#btn_oldnavy {
+	width: 180px;
+	margin-top: 110px;
+}
+
+#btn_oldnavy:hover {
+	background-color: 
+	width: 160px;
+  	height: 80px;
+  	margin-top: 85px;
+  	background: white;
+  	border-radius: 50%;
+}
+
+a#btn_army {
+	display: inline-block;
+	width: 100px;
+	height: 150px;
+	margin-top: 50px;
+	background: transparent url('https://www.del-ton.com/v/vspfiles/assets/images/Logo%20Army.jpg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_army:hover {
+	display: inline-block;
+	width: 100px;
+	height: 150px;
+	margin-top: 50px;
+	background: transparent url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/US_Army_logo.svg/2000px-US_Army_logo.svg.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_nerf {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-top: 80px;
+	background: transparent url('https://img09.deviantart.net/12f1/i/2009/107/4/b/bullet_hole_2_by_nighthawk101stock.jpg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_nerf:hover {
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+	margin-top: 80px;
+	background: transparent url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Nerf_logo.svg/1200px-Nerf_logo.svg.png') center no-repeat;
+	background-size: contain;
+}
+
+#btn_samsung {
+	width: 140px;
+	margin-top: 60px;
+}
+
+#btn_samsung:hover {
+	box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
