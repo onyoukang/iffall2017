@@ -1,0 +1,33 @@
+.box1 {
+	float: right;
+}
+
+.box2 {
+	position: absolute;
+	right:0;
+	bottom: 0;
+}
+
+.box3 {
+	top: 0;
+	right: 0;
+	background-color: green;
+	position: fixed;
+	z-index: 5;
+}
+
+.box4 {
+	background-color: red;
+	position: absolute;
+	z-index: 3;
+	top: 224px;
+	left: 340px;
+}
+
+.box5 {
+	background-color: black;
+	position: absolute;
+	z-index: 2;
+	top: 234px;
+	left: 350px;
+}
