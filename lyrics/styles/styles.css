@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'SHKODER 1989';
+	src: url('font2/SHKODER1989-Light.eot');
+	src: url('font2/SHKODER1989-Light.eot?#iefix') format('embedded-opentype'),
+		url('font2/SHKODER1989-Light.woff') format('woff'),
+		url('font2/SHKODER1989-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+body {
+	width: 1010px;
+	margin-left: 215px;
+	font-family: 'SHKODER1989-Light';
+}
+
+#title1 {
+	width: 460px;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+#title2 {
+	width: 290px;
+	margin-left: 360px;
+	margin-top: 20px;
+}
+
+#first {
+	margin-top: 50px;
+}
+
+p {
+	width: 480px;
+	margin-left: 365px;
+	font-size: 18px;
+	line-height: 1.4em;
+	margin-top: 30px;
+}
+
+#pattern {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 215px;
+	height: 1800px;
+}
+
+#pattern2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 215px;
+	height: 1800px;
+}
+
+#image {
+	bottom: 0;
+	left: 100px;
+	position: fixed;
+}
+
