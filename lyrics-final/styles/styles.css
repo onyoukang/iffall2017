@@ -1,0 +1,69 @@
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Abel', sans-serif;
+
+@font-face {
+	font-family: 'SHKODER 1989';
+	src: url('font2/SHKODER1989-Light.eot');
+	src: url('font2/SHKODER1989-Light.eot?#iefix') format('embedded-opentype'),
+		url('font2/SHKODER1989-Light.woff') format('woff'),
+		url('font2/SHKODER1989-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+body {
+	width: 1010px;
+	margin-left: 215px;
+	font-family: 'Yanone Kaffeesatz';
+	font-weight: 300;
+}
+
+#title1 {
+	width: 500px;
+	margin-left: 210px;
+	margin-top: 90px;
+}
+
+#title2 {
+	width: 310px;
+	margin-left: 380px;
+	margin-top: 20px;
+}
+
+#first {
+	margin-top: 70px;
+}
+
+p {
+	width: 480px;
+	margin-left: 385px;
+	font-size: 18px;
+	line-height: 1.4em;
+	margin-top: 30px;
+}
+
+#pattern {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 215px;
+	height: 1850px;
+}
+
+#pattern2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 215px;
+	height: 1850px;
+}
+
+#image {
+	bottom: 0;
+	left: 100px;
+	position: fixed;
+}
+
+span {
+	font-style: italic;
+}
