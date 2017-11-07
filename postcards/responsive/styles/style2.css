@@ -19,7 +19,8 @@ p {
 	display: block;
 	position: absolute;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: bold;
+	font-weight: 300;
+	font-style: italic;
 	letter-spacing: 1px;
 }
 
