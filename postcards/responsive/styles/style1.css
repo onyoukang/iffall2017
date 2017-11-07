@@ -1,0 +1,213 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+p {
+	color: #102b31;
+	display: block;
+	position: absolute;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+a>div {
+	background-image: url(../images/image1.jpg);
+	height: 100%;
+	background-size: cover;
+	background-position: top left;
+}
+
+.first {
+	width: 570px;
+	font-size: 40px;
+	top: 130px;
+	right: 3%;
+}
+
+.second {
+	font-size: 30px;
+	top: 265px;
+	right: 3%;
+}
+
+@media screen and (max-width: 1385px) {
+	.first {
+		width: 450px;
+		top: 80px;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.first {
+		width: 380px;
+		top: 80px;
+	}
+}
+
+@media screen and (max-width: 1160px) {
+	.first {
+		width: 380px;
+		font-size: 35px;
+		top: 420px;
+		left: 35px;
+	}
+
+	.second {
+		font-size: 25px;
+		top: 620px;
+		left: 340px;
+	}
+}
+
+@media screen and (min-width: 645px) {
+	.one, .two, .three, .four {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	.first, .second {
+		display: none;
+	}
+
+	a>div {
+		background-image: url(../images/image1-vertical.jpg);
+		background-position: top right;
+	}
+
+	.one, .two, .three {
+		font-size: 30px;
+		left: 20px;
+	}
+
+	.one {
+		top: 500px;
+	}
+
+	.two {
+		top: 540px;
+	}
+
+	.three {
+		top: 580px;
+	}
+
+	.four {
+		font-size: 20px;
+		top: 640px;
+		left: 240px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.one, .two, .three {
+		font-size: 23px;
+		left: 20px;
+	}
+
+	.one {
+		top: 470px;
+	}
+
+	.two {
+		top: 500px;
+	}
+
+	.three {
+		top: 530px;
+	}
+
+	.four {
+		font-size: 18px;
+		top: 570px;
+		left: 210px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.one, .two, .three {
+		font-size: 21px;
+		left: 17px;
+	}
+
+	.one {
+		top: 430px;
+	}
+
+	.two {
+		top: 460px;
+	}
+
+	.three {
+		top: 490px;
+	}
+
+	.four {
+		font-size: 16px;
+		top: 530px;
+		left: 180px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.one, .two, .three {
+		font-size: 20px;
+		left: 17px;
+	}
+
+	.one {
+		top: 410px;
+	}
+
+	.two {
+		top: 440px;
+	}
+
+	.three {
+		top: 470px;
+	}
+
+	.four {
+		font-size: 15px;
+		top: 510px;
+		left: 180px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.one, .two, .three {
+		font-size: 17px;
+		left: 12px;
+	}
+
+	.one {
+		top: 375px;
+	}
+
+	.two {
+		top: 400px;
+	}
+
+	.three {
+		top: 425px;
+	}
+
+	.four {
+		font-size: 14px;
+		top: 450px;
+		left: 145px;
+	}
+}
