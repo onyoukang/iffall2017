@@ -1,0 +1,20 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: lightgray;
+}
+
+img, p {
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+p {
+	font-size: 20px;
+}
