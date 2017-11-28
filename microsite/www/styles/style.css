@@ -56,7 +56,7 @@ h2 {
 	float: left;
 	padding-right: 60px;
 	opacity: 0;
-	animation: 1.5s ease-in 2.5s 1 up;
+	animation: 1.5s ease-in 1.5s 1 up;
 }
 
 h5 {
@@ -68,7 +68,7 @@ h5 {
 	float: left;
 	padding-right: 60px;
 	margin-top: -62.4px;
-	animation: 3.9s fadeIn;
+	animation: 2.9s fadeIn;
 	animation-fill-mode: forwards;
 	visibility: hidden;
 }
