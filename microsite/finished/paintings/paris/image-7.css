@@ -1,0 +1,97 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-style: italic;
+	font-weight: 700;
+	font-size: 22px;
+	display: block;
+	float: left;
+	padding: 25px 56px 25px 56px;
+	background-color: #4b63c2;
+	z-index: 0;
+}
+
+#signature {
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 31px;
+}
+
+#home {
+	padding-left: 180px;
+}
+
+#bar {
+	position: absolute;
+	width: 1400px;
+	margin: 0;
+	margin-top: 10px;
+	top: 60px;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h3, h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	clear: left;
+}
+
+h3 {
+	margin: 0;
+	padding-top: 30px; 
+	font-size: 70px;
+	margin-left: 55px;
+	padding-left: 65px;
+	border-bottom: solid 6px #fab334;
+	width: 1320px;
+}
+
+h4 {
+	color: #fa4d35;
+	font-size: 22px;
+	margin-top: 0;
+	text-align: center;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	line-height: 22px;
+}
+
+#first {
+	margin-top: 15px;
+}
+
+#last {
+	padding-bottom: 35px;
+}
+
+div {
+	width: 850px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: top;
+	margin-top: 40px;
+
+}
+
+#image-1 {
+	width: 370px;
+	display: block;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 35px;
+}

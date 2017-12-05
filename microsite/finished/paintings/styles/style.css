@@ -1,0 +1,97 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-style: italic;
+	font-weight: 700;
+	font-size: 22px;
+	display: block;
+	float: left;
+	padding: 25px 56px 25px 56px;
+	background-color: #4b63c2;
+	z-index: 0;
+}
+
+#signature {
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 31px;
+}
+
+#home {
+	padding-left: 180px;
+}
+
+#bar {
+	position: absolute;
+	width: 1400px;
+	margin: 0;
+	margin-top: 10px;
+	top: 60px;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h3, h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	clear: left;
+}
+
+h3 {
+	margin: 0;
+	padding-top: 30px; 
+	font-size: 70px;
+	margin-left: 55px;
+	padding-left: 65px;
+	border-bottom: solid 6px #fab334;
+	width: 1320px;
+}
+
+#matisse-img {
+	width: 250px;
+	margin-right: 170px;
+	margin-top: 102px;
+	float: right;
+}
+
+h4 {
+	color: #fa4d35;
+	font-size: 22px;
+	margin-top: 0;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	margin-top: -10px;
+	line-height: 22px;
+	padding-bottom: 15px;
+}
+
+div {
+	width: 850px;
+	display: inline-block;
+	margin-left: 55px;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+.group {
+	height: 250px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#fauvism, #paris {
+	width: 1200px;
+}
