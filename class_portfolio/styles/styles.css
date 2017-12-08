@@ -1,0 +1,116 @@
+body {
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 600;
+	margin-top: 65px;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.center {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+img {
+	opacity: 0.9;
+}
+
+#first {
+	position: absolute;
+	top: 250px;
+	left: 273px;
+}
+
+#second {
+	position: absolute;
+	top: 250px;
+	left: 503px;
+}
+
+#third {
+	position: absolute;
+	top: 250px;
+	left: 733px;
+}
+
+#fourth {
+	position: absolute;
+	top: 450px;
+	left: 733px;
+}
+
+p {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	opacity: 0;
+	color: black;
+}
+
+#one, #two {
+	width: 200px;
+	height: 20px;
+	padding-top: 190px;
+	padding-bottom: 190px;
+}
+
+#three, #four {
+	width: 400px;
+	height: 20px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+#one {
+	top: 230px;
+	left: 273px;
+}
+
+#two {
+	top: 230px;
+	left: 503px;
+}
+
+#three {
+	top: 230px;
+	left: 733px;
+}
+
+#four {
+	top: 430px;
+	left: 733px;
+}
+
+.vertical {
+	width: 200px;
+}
+
+.horizontal {
+	width: 400px;
+}
+
+.container:hover .title{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 520px;
+}
+
+#bottom {
+	padding-top: 4px;
+}
